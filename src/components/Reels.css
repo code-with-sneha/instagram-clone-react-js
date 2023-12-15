@@ -1,0 +1,85 @@
+
+/* .app{
+    text-align: center;
+   }
+   .main{
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+   }
+   .popup{
+    height: 400px;
+    width: 50%;
+    background-color: white;
+    border: 1px solid gray;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+   }
+.popup-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 20px;
+    border-bottom: 1px solid black;
+}
+.color{
+    background-color: rgb(241, 236, 236);
+}
+h4{
+    margin-left: -70%;
+}
+.no{
+    padding: 110px;
+}
+.color{
+    margin: 0;
+    border: 1px solid gray;
+    padding: 5px;
+
+}
+input {
+    width: 270px;
+    height: 40px;
+  } */
+
+
+
+
+  html {
+    scroll-snap-type: y mandatory;
+  }
+  
+  .App-frt{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: white;
+    color: #fff;
+  }
+  .bground{
+    background-color: rgb(240, 232, 232);
+    height: 500%;
+    width: 100%;
+    position: absolute;
+    top:0;
+   }
+  
+  .video-container {
+    position: relative;
+    height: 30%;
+    width: 25%;
+    max-width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+    margin-top: 50px;
+  }
+  
+  /* for chrome and opera */
+  .video-container::-webkit-scrollbar {
+    display: none;
+  }

@@ -1,0 +1,121 @@
+.app{
+    text-align: start;
+   }
+   .back{
+    background-color: white;
+    height: 200%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+   }
+   .msg{
+    height: 530px;
+    width: 25%;
+    background-color: white;
+    border: 1px solid gray;
+    position: absolute;
+    top: 5%;
+    right: 55%;
+    bottom: 100%;
+    left: 220px;
+    border-radius: 10px;
+   }
+   .suguser{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; 
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.tit{
+    font-size: 20px;
+    margin-left: -65%;
+    padding: 10px;
+}
+.name_s{
+    margin-right: 55%;
+    padding: 12px;
+}
+.icon-1{
+    margin-left: -18%;
+    margin-top: -9%;
+}
+.req{
+    margin-top: -50px;
+    color: gray;
+    margin-left: 200px;
+    padding: 10px;
+}
+.ilogo{
+    margin-left: 50%;
+    margin-top: 8%;
+}
+.iconmg{
+    margin-left: 50%;
+    text-align: center;
+    padding-top: 20px;
+}
+.iconp{
+    margin-left: 50%;
+    text-align: center;
+    padding: -30px;
+}
+.ibtn{
+    margin-left: 50%;
+    text-align: center;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+.right-side{
+ width: 35%;
+ margin-top: 15px;   
+}
+.right-side .profile-title{
+    display: flex;
+    align-items: center;
+}
+.right-side .profile-title .profile-left{
+    display: flex;
+    align-items: center;
+    margin: -10px;
+}
+.right-side .profile-title .profile-left .image img{
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    align-items: start;
+    justify-content: center;
+    margin-top: 12px;
+}
+.name{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 1px;
+}
+.surname{
+    font-size: 12px;
+    color: grey;
+}
+.profile-right{
+    color: #0095f6;
+    font-weight: 600;
+    font-size: 12px;
+    background: 0;
+    border: 0;
+    margin-left: 50px;
+}
+.profile-right:hover{
+    color: black;
+    cursor: pointer;
+} 

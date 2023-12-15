@@ -1,0 +1,52 @@
+.video-text {
+  position: absolute;
+  bottom: -50px;
+  color: #fff;
+  display: flex;
+  margin-bottom: 20px;
+  margin: 100px;
+  margin-left: 30px;
+}
+
+.video-text > h3 {
+  margin-left: 20px;
+  
+}
+.video-footer .video-text > Button{
+  margin: 50px;
+}
+.footer-buttons {
+  position: absolute;
+  bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 100px;
+  margin: 10px;
+  padding: 80px;
+  border: 2px;
+
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+ 
+ /* .footer-buttons{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+ } */
+ .flex-box {
+  margin-right: -195px;
+  margin-top: -5px;
+ }
+ .dot{
+  margin-right: -220px;
+  font-size: 30px;
+ }

@@ -1,0 +1,47 @@
+.not{
+    text-align: center;
+   }
+.msg_1{
+    height: 550px;
+    width: 32%;
+    background-color: white;
+    border: 1px solid gray;
+    position: absolute;
+    top: 4%;
+    right: 55%;
+    bottom: 100%;
+    left: 220px;
+    border-radius: 10px;
+}
+.earlier{
+    margin-left: -80%;
+    font-weight: bold;
+}
+.sugusr{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+}
+.flbtn{
+    color: #0095f6;
+    font-weight: 600;
+    font-size: 13.5px;
+    background: #0095f6;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 6px;
+}
+.flbtn:hover{
+    color: black;
+    cursor: pointer;
+}
+.para-01{
+    margin-left: 70px;
+    font-size: 12px;
+}
